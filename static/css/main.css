@@ -1,0 +1,143 @@
+html, body, div {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-wrapper {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background-color: #000;
+	opacity: .7;
+}
+
+.navbar-nav li a {
+	color: #FFF;
+}
+
+.navbar-brand {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+
+.navbar-brand:hover {
+	color: red;
+}
+
+.hero {
+	height: 100vh;
+	width: 100vw;
+	background-image: url('../images/marin-headlands.jpg');
+	position: fixed;
+	top: 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center left;
+	display: table;
+	/*box-shadow: inset 0 0 500px rgba(0,0,0,.5);*/
+	z-index: 0;
+	opacity: .7;
+}
+
+.hero-text {
+	height: 65vh;
+	display: table-cell;
+	color: #FFF;
+	padding: 55px;
+	margin: 0 auto;
+	text-align: center;
+	/*vertical-align: middle;*/
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.hero-hr {
+	width: 50%;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.main-container {
+	background-color: #FFF;
+	margin-top: 65vh;
+	z-index: 5;
+	position: relative;
+	box-shadow: -1px 1px 19px 0px rgba(97, 95, 95, 0.31);
+}
+
+.anchor {
+	margin-top: 40px;
+}
+
+.about-section {
+	width: 60%;
+	padding: 24px;
+	margin: 0 auto;
+}
+
+.bottom-margin {
+	margin-bottom: 24px;
+}
+
+.marketing .col-lg-3 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.featurette-heading a {
+	color: #333;
+	cursor: pointer;
+}
+
+.featurette-heading a:hover {
+	color: rgb(255, 0, 146);
+	text-decoration: none;
+}
+
+.project-btn {
+	margin-top: 18px;
+	background-color: rgb(255, 0, 146);
+	color: #FFF;
+}
+
+.project-img {
+	border: 1px solid rgba(142, 139, 139, 0.25)
+}
+
+.contact-section {
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+footer {
+	width: 100%;
+	background-color: #4e4e4e;
+	display: inline-block;
+	color: #fff;
+	padding: 40px;
+	opacity: .75;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: rgb(255, 0, 146);
+	text-decoration: none;
+}
+
+.glyphicon-envelope {
+	font-size: 16px;
+	padding-right: 10px;
+}
